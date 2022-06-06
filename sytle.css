@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height:100vh;
+    background-image: radial-gradient(circle 610px at 5.2% 51.6%, rgba(5, 8, 114, 1) 0%, rgba(7, 3, 53, 1) 97.5%);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+    margin-top: 35px;
+}
+
+header h1 {
+    font-size: 85px;
+    letter-spacing: 1px;
+    background: -webkit-linear-gradient(rgba(245, 57, 57, 0.864), rgb(242, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+form
+{
+    margin-top: 50px;
+    margin-left: 400px;
+    display: flex;
+    
+    width: 500px;
+    
+}
+.input
+{
+    width: 300px;
+    height: 45px;
+    border: none;
+    
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.input:focus
+{
+    border: none;
+    padding: 0;
+}
+
+.inputButtonPlus
+{
+    width: 45px;
+    height: 45px;
+    color: rgb(7,3,53) ;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    background-color:rgb(226,147,30);
+    transition: all 0.5s;
+    
+
+}
+.inputButtonPlus:hover
+{
+    color:  rgb(226,147,30) ;
+    background-color:white;
+
+}
+
+.selectFilter
+{
+    width: 150px;
+    text-align: center;
+    height: 45px;
+    border: none;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.worksPart
+{
+    width: 400px;
+    justify-content: center;
+    margin-left: 465px;
+    margin-top: 45px;
+}
+.complete
+{
+    opacity: 50%;
+    text-decoration: line-through;
+    transition: all 1s;
+}
+.newWorkDiv
+{
+    width: 370px;
+    
+    background-color: white;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+.newWorkLi
+{
+    width: 250px;
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.complete-btn , .trash-btn
+{
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.trash-btn
+{
+    background-color: rgb(226,147,30);
+    color: rgb(7,3,53);
+}
+
+.trash-btn:hover
+{
+    background-color: white;
+    color:rgb(226,147,30) ;
+}
+.complete-btn
+{
+    
+    color: rgb(7,3,53);
+    margin-left: 10px;
+
+}
+.complete-btn:hover
+{
+    background-color: white;
+    color:rgb(226,147,30) ;
+}

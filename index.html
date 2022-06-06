@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sytle.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <title>TodoList</title>
+</head>
+
+<body>
+    <header>
+        <h1>TodoList</h1>
+    </header>
+
+
+    <form>
+       
+            <input type="text" placeholder="Your Work" class="input">
+            <button class="inputButtonPlus" type="submit">
+                <i class="fas fa-plus-square"></i>
+            </button>
+        
+
+        <select class="selectFilter">
+            <option value="all">All</option>
+            <option value="completed">completed</option>
+            <option value="Uncompleted">Uncompleted</option>
+        </select>
+
+    </form>
+
+    <div class="worksPart">
+        <ul class="newWorkUl"></ul>
+    </div>
+    <script src="./javaScript.js"></script>
+</body>
+
+</html>
